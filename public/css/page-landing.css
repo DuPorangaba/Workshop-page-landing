@@ -1,0 +1,106 @@
+.page-header{
+    display:flex;
+    flex-direction: column;
+}
+
+.page-header .top-bar-container{
+    width:95%;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+
+    padding: 1.6rem 0; 
+}
+
+.top-bar-container .top-bar-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+
+    margin-right: 1.2rem;
+
+    cursor: pointer;
+
+    transition: color 300ms;
+}
+
+.top-bar-container .top-bar-content a:hover {
+    color: #EA4B2E; 
+}
+
+.top-bar-container .top-bar-content a.home {
+    color: #EA4B2E;    
+}
+
+.top-bar-container .top-bar-content a.home span {
+    border-bottom: 3.5px solid #EA4426;
+    padding-bottom: 3px;
+}
+
+.top-bar-container .top-bar-content button{
+    width: 175px;
+    height: 60px;
+    
+    border: 3.5px solid #3F4249;
+    background: #232531;
+    color: #EA4B2E;
+
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+
+    cursor: pointer;
+
+    transition: background 250ms;
+}
+
+.top-bar-container .top-bar-content button:hover{
+    border: none;
+    background: #3F4249;
+
+    color: white;
+}
+
+main {
+    width: 70%;
+    margin: 0 15rem;
+    padding: 5rem 0;
+}
+
+main p {
+    font: 400 1.6rem "Roboto Mono", sans-serif ;
+}
+
+main h2 {
+    padding: 1.6rem 0;
+    font: 400 8rem "Roboto", sans-serif; 
+    background: -webkit-linear-gradient( 0deg, #C52135 0%, #FF5C32 85.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main button{
+    width: 200px;
+    height: 60px;
+    margin-top: 3.2rem;
+
+    border: none;
+    background: #3F4249;
+
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+
+    cursor: pointer;
+
+    transition: background 250ms;
+}
+
+main button:hover {
+    border: 3.5px solid #3F4249;
+    background: #232531;
+    color: #EA4B2E;
+}
